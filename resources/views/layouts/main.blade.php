@@ -22,10 +22,7 @@
 <body class="dark:bg-slate-900">
 
 <x-navbar/>
-
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+{{$slot}}
 
 <x-footer/>
 
